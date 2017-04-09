@@ -1,0 +1,40 @@
+*
+{
+    font-size: 20px;
+    font-family: "Noto Sans CJK SC Regular", "微软雅黑", sans-serif;
+    text-align: center;
+}
+
+form
+{
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+fieldset
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.btn
+{
+    margin-top: 1em;
+    height: 2em;
+}
+
+.message
+{
+    margin: 0;
+    height: 1em;
+}
+
+#fileContent
+{
+    display: inline-block;
+    text-align: center;
+    border: dotted 1px black;
+}

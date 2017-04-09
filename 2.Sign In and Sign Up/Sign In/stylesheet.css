@@ -1,0 +1,47 @@
+#formArea
+{
+    float: right;
+    display: inline-block;
+    text-align: center;
+    margin-top: 3.5em;
+    margin-right: 8em;
+    padding: 2em;
+}
+
+form
+{
+    display: inline-block;
+}
+
+#imageArea
+{
+    display: inline-block;
+    margin-top: 8em;
+    margin-left: 8em;
+    width: 40em;
+    height: 25em;
+    background-image: url("images/image1.jpg");
+    background-size: contain;
+    border-radius: 2.5em;
+    background-clip: border-box;
+    transition: 2s;
+    box-shadow: gray 1.5em 1.5em 2em;
+    position: absolute;
+}
+
+#ajaxBtn
+{
+    background-image: url("images/button.png");
+}
+
+#ajaxBtn:hover
+{
+    background-image: url("images/button hover.png");
+}
+
+#response
+{
+    font-size: 2em;
+    margin-right: 10em;
+    margin-top: 10em;
+}

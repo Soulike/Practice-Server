@@ -1,0 +1,36 @@
+
+form {
+    margin-top: 3em;
+    width: 30em;
+}
+
+legend {
+    font-size: 2em;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttonArea {
+    margin-top: 2em;
+}
+
+#ajaxBtn {
+    background-image: url("images/SUBMIT.png");
+}
+
+#ajaxBtn:hover {
+    background-image: url("images/SUBMIT hover.png");
+}
+
+#showPassword {
+    width: 1em;
+    height: 1em;
+}
+
+label {
+    vertical-align: middle;
+}

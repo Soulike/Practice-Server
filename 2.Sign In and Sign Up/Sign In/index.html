@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In - Soulike</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="../shared/stylesheet.css">
+    <link rel="icon" href="../../../../Materials/Icons/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+<header>
+    <p id="text">Sign In</p>
+</header>
+<div id="preLoad">
+    <img src="images/image1.jpg" alt="image1">
+    <img src="images/image2.jpg" alt="image2">
+    <img src="images/image3.jpg" alt="image3">
+    <img src="images/image4.jpg" alt="image4">
+    <img src="images/image5.jpg" alt="image5">
+    <img src="images/image6.jpg" alt="image6">
+    <img src="images/image7.jpg" alt="image7">
+    <img src="images/image8.jpg" alt="image8">
+</div>
+<content>
+    <div id="imageArea"></div>
+    <div id="formArea">
+        <form action="http://localhost:3000" method="POST">
+            <fieldset>
+                <legend>Sign in and go on your work!</legend>
+                <div id="usernameArea">
+                    <label for="username">E-mail:</label>
+                    <a href="../Sign%20Up/index.html">Sign Up</a>
+                    <input type="text" id="username" class="text">
+                    <p id="usernameMsg" class="msg"></p>
+                </div>
+                <div id="passwordArea">
+                    <label for="password">Password:</label>
+                    <a href="../Forgot/index.html">Forgot Your Password?</a>
+                    <input type="password" id="password" class="text">
+                    <p id="passwordMsg" class="msg"></p>
+                </div>
+                <div id="buttonArea">
+                    <button id="ajaxBtn"></button>
+                </div>
+                <pre id="submitMsg" class="msg"></pre>
+            </fieldset>
+        </form>
+    </div>
+</content>
+<script src="//cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+<script src="signIn.js"></script>
+</body>
+</html>

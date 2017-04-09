@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="images/icon.png">
+    <title>Upload</title>
+</head>
+<body>
+
+<form action="http://localhost:8888" method="post" id="upload" enctype="multipart/form-data">
+    <fieldset>
+        <legend>Upload</legend>
+        <input type="file" id="uploadBtn" name="file" accept="text/*">
+        <p id="uploadMessage" class="message"></p>
+        <input type="submit" value="SUBMIT" class="btn">
+    </fieldset>
+</form>
+<pre id="fileContent"></pre>
+</body>
+</html>
